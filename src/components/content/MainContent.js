@@ -8,11 +8,13 @@ import {
    } from "react-router-dom";
 // import pages
 import Answer1 from '../../pages/ExerciseAnswer/Week1-Day1/Answer1.js';
+import CounterClass from '../../pages/ExerciseAnswer/Week1-Day1/Answer1-1';
 
 const MainContent = () =>{
     return(
         <div>
             <Answer1/>
+            <CounterClass/>
         </div>
     )
 }
