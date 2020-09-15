@@ -1,9 +1,39 @@
 import React from 'react';
 import './App.css';
+import MyNavbar from './components/navbar/Navbar.js';
+// import react router
+import { 
+  BrowserRouter as Router,
+  Switch,
+  Link,
+  Route
+ } from "react-router-dom";
+// import pages
+import Home from './pages/Home';
+import Exercise from './pages/Exercise';
+import MyProfile from './pages/MyProfile';
 
 function App() {
   return (
-    <h1>Website</h1>
+    <Router>
+      <div className="container-navbar">
+        <MyNavbar/>
+      </div>
+      <div className="container-body">
+        <Switch>
+          <Route path="/Exercise">
+            <Exercise/>
+          </Route>
+          <Route path="/MyProfile">
+            <MyProfile/>
+          </Route>
+          <Route path="/">
+            <Home/>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+    
   );
 }
 
