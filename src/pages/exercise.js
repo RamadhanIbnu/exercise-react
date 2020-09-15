@@ -18,7 +18,7 @@ const Exercise = () =>{
                     <Row>
                         <Col md={10}>
                             <MainContent/>
-                            <p>bagian main content</p>
+                            {/* <p>bagian main content</p> */}
                         </Col>
                         <Col md={2}>
                             <p>bagian sidebar content</p>
