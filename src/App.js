@@ -9,7 +9,7 @@ import {
   Route
  } from "react-router-dom";
 // import pages
-import Home from './pages/Home';
+import Home from './pages/Homee';
 import Exercise from './pages/Exercise';
 import MyProfile from './pages/MyProfile';
 
