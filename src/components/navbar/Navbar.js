@@ -1,4 +1,5 @@
 import React from "react";
+import './Navbar.css'
 //import bootstrap package
 import {
   Navbar,
@@ -11,18 +12,18 @@ const MyNavbar = () =>{
     return (
         <Navbar bg="dark" variant="dark">
           <LinkContainer to="/">
-            <Navbar.Brand>Exercise.com</Navbar.Brand>
+            <Navbar.Brand>MyExercise</Navbar.Brand>
           </LinkContainer>
           
-          <Nav className="mr-auto">
+          <Nav className="mr-auto nav-menu">
             <LinkContainer to="/">
-              <Nav.Link >Home</Nav.Link>
+              <Nav.Link className="nav-item">Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Exercise">
-              <Nav.Link >Exercise</Nav.Link>
+              <Nav.Link className="nav-item">Exercise</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/MyProfile">
-              <Nav.Link >MyProfile</Nav.Link>
+              <Nav.Link className="nav-item">MyProfile</Nav.Link>
             </LinkContainer>            
           </Nav>                   
         </Navbar>
