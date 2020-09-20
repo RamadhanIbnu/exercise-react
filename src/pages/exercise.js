@@ -1,7 +1,5 @@
 import React from "react";
 import "./Exercise.css"
-//import bootstrap
-import { Container,Row,Col } from "react-bootstrap";
 import SideBar from '../components/sidebar/sidebar';
 // import react router dom
 import {
