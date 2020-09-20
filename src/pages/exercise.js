@@ -10,8 +10,8 @@ import {
     Route,
   } from "react-router-dom";
   // import exercise pages
-import CounterClass from '../pages/ExerciseAnswer/Week1-Day1/CounterClass';
-import CounterFunction from '../pages/ExerciseAnswer/Week1-Day1/CounterFunction';
+import CounterClass from './ExerciseAnswer/Week1-Day1/CounterClass';
+import CounterFunction from './ExerciseAnswer/Week1-Day1/CounterFunction';
 
 
   const routes = [
@@ -19,7 +19,8 @@ import CounterFunction from '../pages/ExerciseAnswer/Week1-Day1/CounterFunction'
       path: "/Exercise/Week1day1",
       main: () => 
       <div>
-          <CounterClass/> <CounterFunction/>
+          <CounterClass/> 
+          <CounterFunction/>
       </div>
     },
     {
