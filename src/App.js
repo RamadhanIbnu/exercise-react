@@ -5,7 +5,6 @@ import MyNavbar from './components/navbar/Navbar.js';
 import { 
   BrowserRouter as Router,
   Switch,
-  Link,
   Route
  } from "react-router-dom";
 // import pages
