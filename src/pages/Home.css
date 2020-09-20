@@ -3,3 +3,9 @@
     width: auto;
     border: 1px solid black;
 } */
+
+.header{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #e9ecef;
+}

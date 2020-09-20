@@ -1,10 +1,13 @@
 import React from "react";
-// import "./Home.css"
+import MyHeader from "../components/header/Header";
+import "./Home.css"
 
 const Home = () =>{
     return(
         <div>
-            <h1>Ini adalah halaman home</h1>
+            <div className="header">
+                <MyHeader/>
+            </div>
         </div>
     )
 }
