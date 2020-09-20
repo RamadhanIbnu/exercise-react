@@ -1,0 +1,23 @@
+/* .exercise-welcome{
+    position: absolute;
+    margin-left: 200px;
+} */
+
+.container-exercise{
+    display: flex;
+}
+
+.sidebar ul li :link{
+    text-decoration: none;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.content{
+    flex: 1;
+    position: absolute;
+    left: 20%;
+}
