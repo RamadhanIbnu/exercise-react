@@ -22,9 +22,7 @@ const MyNavbar = () =>{
             <LinkContainer to="/Exercise">
               <Nav.Link className="nav-item">Exercise</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/MyProfile">
-              <Nav.Link className="nav-item">MyProfile</Nav.Link>
-            </LinkContainer>            
+                        
           </Nav>                   
         </Navbar>
       
