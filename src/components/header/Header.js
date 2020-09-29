@@ -5,7 +5,7 @@ import { Jumbotron,Button } from "react-bootstrap";
 
 const MyHeader = () =>{
     return (
-      <Jumbotron>
+      <Jumbotron className="welcome">
         <h1>MyExercise</h1>
         <h4>
           The most popular exercise storage
